@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hero-detail{
+    max-width: 30%;
+    margin-top: 8%;
+    margin-right: 10%;
+
+}
+.hero-detail h1{
+    font-size: 50px;
+    font-family: lato;
+    color: rgba(0, 0, 0, 0.678);
+    padding: 2px 5px;
+}
+.details{
+    color: gray;
+}
+.mission{
+    color: rgba(216, 150, 28, 0.822);
+}
+.magic-button{
+    border: none;
+    background-image: linear-gradient(120deg,rgb(245, 186, 196),rgba(240, 50, 50, 0.76));
+    color: white;
+    padding: 15px 50px;
+    font-size: 20px;
+   border-radius: 7px;
+}
+.hero-image{
+    max-width: 30%;
+}
+
+img{
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.goal-details{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 80px;
+}
+.illustration{
+    max-width: 100%;
+    display: flex;
+    min-height: fit-content;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.mission-illustration{
+    max-width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(135, 207, 235, 0.452);
+    padding: 0px 60px;
+    border-radius: 15px;
+}
+.mission-illustration img{
+    margin-top: 0;
+}
+.development{
+    display: flex;
+    max-width: 100%;
+    margin: 30px 0px;
+}
+.image{
+    max-width: 30%;
+    margin-right: 90px;
+}
+img{
+    width: 100%;
+}
+.development-detail{
+    max-width: 60%;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 40px;
+}
+.section-head{
+    font-style: arial;
+    font-size: 40px;
+}
+.app-build{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+#app-details h1{
+    margin-top: 40%;
+    font-size: 60px;
+    line-height: 120%;
+}
+.footer{
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    color: rgb(206, 204, 204);
+}
+.footer h1{
+    font-family: cursive;
+}
