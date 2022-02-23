@@ -28,9 +28,14 @@ body{
 .mission{
     color: rgba(216, 150, 28, 0.822);
 }
+.focus{
+    border-left: 5px solid rgba(255, 0, 0, 0.541);
+    padding-left: 14px;
+    border-radius: 4px;
+}
 .magic-button{
     border: none;
-    background-image: linear-gradient(120deg,rgb(245, 186, 196),rgba(240, 50, 50, 0.76));
+    background-image: linear-gradient(120deg,rgba(255, 0, 43, 0.918),rgba(253, 13, 13, 0.288));
     color: white;
     padding: 15px 50px;
     font-size: 20px;
@@ -39,7 +44,6 @@ body{
 .hero-image{
     max-width: 30%;
 }
-
 img{
     width: 100%;
     margin-top: 20%;
@@ -54,14 +58,22 @@ img{
     max-width: 100%;
     display: flex;
     min-height: fit-content;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#first{
+    background-color: rgba(135, 207, 235, 0.438);
+}
+#second{
+    background-color: rgba(255, 0, 0, 0.15);
+}
+#third{
+    background-color: rgba(248, 172, 31, 0.335);
 }
 .mission-illustration{
     max-width: 25%;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: rgba(135, 207, 235, 0.452);
+    margin-left: 30px;
+   
     padding: 0px 60px;
     border-radius: 15px;
 }
@@ -99,6 +111,11 @@ img{
     margin-top: 40%;
     font-size: 60px;
     line-height: 120%;
+}
+#e-school{
+    padding: 5px 15px;
+
+    margin-bottom: 10%;
 }
 .footer{
     height: 100px;
