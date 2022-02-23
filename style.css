@@ -26,7 +26,7 @@ body{
     color: gray;
 }
 .mission{
-    color: rgba(216, 150, 28, 0.822);
+    color: #ffa500;
 }
 .focus{
     border-left: 5px solid rgba(255, 0, 0, 0.541);
@@ -96,7 +96,7 @@ img{
     max-width: 60%;
     margin-left: 10%;
     margin-right: 15%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .section-head{
     font-style: arial;
@@ -118,12 +118,14 @@ img{
     margin-bottom: 10%;
 }
 .footer{
-    height: 100px;
+    height: 150px;
     background-color: black;
     text-align: center;
-    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
     color: rgb(206, 204, 204);
 }
 .footer h1{
     font-family: cursive;
+    font-size: 40px;
 }
